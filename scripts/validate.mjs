@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Structural checks for the ai-product-manager skill. Zero dependencies (Node 18+).
+// Structural checks for the chanmeng-ai-product-manager skill. Zero dependencies (Node 18+).
 // - SKILL.md has YAML frontmatter with `name` and `description` (description <= 1024 chars)
 // - SKILL.md body stays under 500 lines (progressive disclosure)
 // - every `references/*.md` and `templates/*.md` mentioned in SKILL.md exists
@@ -11,7 +11,7 @@ import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
-const skillDir = join(root, "skills", "ai-product-manager");
+const skillDir = join(root, "skills", "chanmeng-ai-product-manager");
 const errors = [];
 const fail = (msg) => errors.push(msg);
 
@@ -21,7 +21,7 @@ if (!fm) fail("SKILL.md: missing YAML frontmatter");
 else {
   const front = fm[1];
   const name = front.match(/^name:\s*(.+)$/m)?.[1]?.trim();
-  if (name !== "ai-product-manager") fail(`SKILL.md: name should be "ai-product-manager", got "${name}"`);
+  if (name !== "chanmeng-ai-product-manager") fail(`SKILL.md: name should be "chanmeng-ai-product-manager", got "${name}"`);
   const descBlock = front.match(/^description:\s*>-?\n([\s\S]*?)(?=\n\S|$)/m);
   const desc = descBlock
     ? descBlock[1].split("\n").map((l) => l.trim()).join(" ").trim()
@@ -67,4 +67,4 @@ if (errors.length) {
   console.error(`✗ ${errors.length} problem(s):\n  - ${errors.join("\n  - ")}`);
   process.exit(1);
 }
-console.log("✓ ai-product-manager skill structure is valid");
+console.log("✓ chanmeng-ai-product-manager skill structure is valid");

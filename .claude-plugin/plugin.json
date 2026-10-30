@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
-  "name": "ai-product-manager",
+  "name": "chanmeng-ai-product-manager",
   "version": "0.2.0",
   "description": "Senior AI product manager / forward-deployed engineer / agent architect judgment for enterprise LLM, RAG and agent projects: discovery, solution selection, agent architecture (loop, subagents, tools, MCP, hooks, context), vertical slices, POCs, evals, launch gates, production readiness, and continue/shrink/stop decisions.",
   "author": {
@@ -8,11 +8,11 @@
     "email": "chanmeng.dev@gmail.com",
     "url": "https://github.com/ChanMeng666"
   },
-  "homepage": "https://github.com/ChanMeng666/ai-product-manager-skill",
-  "repository": "https://github.com/ChanMeng666/ai-product-manager-skill",
+  "homepage": "https://github.com/ChanMeng666/chanmeng-ai-product-manager",
+  "repository": "https://github.com/ChanMeng666/chanmeng-ai-product-manager",
   "license": "MIT",
   "keywords": [
-    "ai-product-manager",
+    "chanmeng-ai-product-manager",
     "product-management",
     "llm",
     "ai-agents",

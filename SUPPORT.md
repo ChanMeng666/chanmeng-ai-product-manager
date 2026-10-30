@@ -2,16 +2,16 @@
 
 ## Getting Help
 
-If you need help with ai-product-manager, here are the available channels:
+If you need help with chanmeng-ai-product-manager, here are the available channels:
 
-- **GitHub Discussions**: for general questions, feedback, and ideas, visit the [Discussions](https://github.com/ChanMeng666/ai-product-manager-skill/discussions) tab.
-- **GitHub Issues**: for bug reports and feature requests, [open an issue](https://github.com/ChanMeng666/ai-product-manager-skill/issues).
+- **GitHub Discussions**: for general questions, feedback, and ideas, visit the [Discussions](https://github.com/ChanMeng666/chanmeng-ai-product-manager/discussions) tab.
+- **GitHub Issues**: for bug reports and feature requests, [open an issue](https://github.com/ChanMeng666/chanmeng-ai-product-manager/issues).
 
 ## Before You Ask
 
 - Check the [README](README.md) for setup and usage instructions.
 - Review the [Contributing Guide](CONTRIBUTING.md) for development and build steps.
-- Search existing [issues](https://github.com/ChanMeng666/ai-product-manager-skill/issues) and [discussions](https://github.com/ChanMeng666/ai-product-manager-skill/discussions) — your question may already be answered.
+- Search existing [issues](https://github.com/ChanMeng666/chanmeng-ai-product-manager/issues) and [discussions](https://github.com/ChanMeng666/chanmeng-ai-product-manager/discussions) — your question may already be answered.
 
 ## Scope of Support
 

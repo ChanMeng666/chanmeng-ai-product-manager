@@ -1,6 +1,6 @@
 # Project Governance
 
-This document describes how **ai-product-manager** is governed and how decisions are made.
+This document describes how **chanmeng-ai-product-manager** is governed and how decisions are made.
 
 ## Overview
 
@@ -28,8 +28,8 @@ contributor. Contributors are expected to follow the [Code of Conduct](CODE_OF_C
 - **Day-to-day changes** (bug fixes, docs, small features) are decided through normal pull-request
   review by the maintainer.
 - **Significant changes** (breaking changes, major features, direction shifts) are discussed openly
-  in [GitHub Issues](https://github.com/ChanMeng666/ai-product-manager-skill/issues) or
-  [Discussions](https://github.com/ChanMeng666/ai-product-manager-skill/discussions) before implementation, so the
+  in [GitHub Issues](https://github.com/ChanMeng666/chanmeng-ai-product-manager/issues) or
+  [Discussions](https://github.com/ChanMeng666/chanmeng-ai-product-manager/discussions) before implementation, so the
   community can weigh in.
 
 ## Becoming a Maintainer

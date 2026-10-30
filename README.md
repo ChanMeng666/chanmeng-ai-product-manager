@@ -20,7 +20,7 @@ evals that produce verdicts, and pass launch gates with a way back.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-green?style=flat-square)](https://docs.anthropic.com/en/docs/claude-code/skills)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-SKILL.md-blue?style=flat-square)](https://agentskills.io)
-[![Validate](https://github.com/ChanMeng666/ai-product-manager-skill/actions/workflows/validate.yml/badge.svg)](https://github.com/ChanMeng666/ai-product-manager-skill/actions/workflows/validate.yml)
+[![Validate](https://github.com/ChanMeng666/chanmeng-ai-product-manager/actions/workflows/validate.yml/badge.svg)](https://github.com/ChanMeng666/chanmeng-ai-product-manager/actions/workflows/validate.yml)
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-EA4AAA?style=flat-square&logo=githubsponsors)](https://github.com/sponsors/ChanMeng666)
 
 </div>
@@ -31,7 +31,7 @@ Most enterprise AI projects don't die because the model is weak. They die **afte
 Nobody measured a baseline, nobody owned errors, the scope grew back, "95% accuracy" hid a 64%
 slice, a pilot quietly became production, or a 3 a.m. incident had no runbook. Public research
 points the same way: problem definition, data and organizational adoption, not model capability,
-are the usual causes of failure (see [industry evidence](skills/ai-product-manager/references/industry-evidence.md)).
+are the usual causes of failure (see [industry evidence](skills/chanmeng-ai-product-manager/references/industry-evidence.md)).
 
 Senior AI PMs and forward-deployed engineers learn this the expensive way, one failed project at a
 time. This skill packages that judgment so **anyone** can borrow it: a founder scoping a first AI
@@ -60,7 +60,7 @@ Every substantive answer leads with a **verdict**, ranks the **red flags** by co
 ## What's inside
 
 ```
-skills/ai-product-manager/
+skills/chanmeng-ai-product-manager/
 ├── SKILL.md         17 operating principles · stage router · field diagnostics · red-flag phrases
 ├── references/      loaded only when relevant (progressive disclosure)
 └── templates/       one-page artifacts the agent fills in with your specifics
@@ -68,22 +68,22 @@ skills/ai-product-manager/
 
 | Reference | Covers |
 |---|---|
-| [`role-and-responsibilities`](skills/ai-product-manager/references/role-and-responsibilities.md) | 7 duties and 4 things that aren't yours · how technical to be · AI PM vs. FDE vs. engineer vs. architect · 7-layer responsibility map · 6 AI product forms |
-| [`discovery`](skills/ai-product-manager/references/discovery.md) | The first questions · stakeholder map · RACI · interviews · baselines · AI-suitability · hypothesis ledger |
-| [`solution-selection`](skills/ai-product-manager/references/solution-selection.md) | Certainty axis · decision tree · when an agent is justified · autonomy levels · HITL · agent patterns · ADRs |
-| [`scoping-and-vertical-slice`](skills/ai-product-manager/references/scoping-and-vertical-slice.md) | Minimum viable *deployment* · coverage vs. depth · 4-layer slice · deferrals with return conditions · exit criteria |
-| [`ontology-and-guardrails`](skills/ai-product-manager/references/ontology-and-guardrails.md) | Concepts/relations/constraints · action allow-lists · "prompts are advice, not gates" |
-| [`agent-architecture`](skills/ai-product-manager/references/agent-architecture.md) | Design order · agent loop and exits · hub-and-spoke subagents and briefs · code gates (hooks, prerequisites) · context engineering · error propagation and escalation · verification · long-running harnesses · the fix ladder · review checklist |
-| [`tool-design`](skills/ai-product-manager/references/tool-design.md) | Choosing the tool set · tool descriptions · results · structured error contracts · `tool_choice` · structured output and validation-retry · MCP · testing tools |
-| [`building-on-claude`](skills/ai-product-manager/references/building-on-claude.md) | API vs. Agent SDK vs. Claude Code · concept-to-mechanism map (Agent tool, hooks, skills, CLAUDE.md, rules, MCP, structured outputs, batches) · Claude Code for teams and CI · common wrong answers · CCA-F domains |
-| [`poc`](skills/ai-product-manager/references/poc.md) | POC vs. demo · highest-risk assumption · the 4 POC experiments · spikes · continue/shrink/stop |
-| [`evaluation`](skills/ai-product-manager/references/evaluation.md) | 4-layer eval matrix · golden sets · error analysis · groundedness · LLM-as-judge · the "95%" traps · eval vs. UAT vs. pilot |
-| [`lifecycle-and-gates`](skills/ai-product-manager/references/lifecycle-and-gates.md) | 7 stages · 4 gates · Demo/POC/Pilot/Production by evidence · sunk cost and stop conditions |
-| [`production-readiness`](skills/ai-product-manager/references/production-readiness.md) | 12-item launch gate · canary · rollback drills · AI-quality SLOs · runbooks · incident triage |
-| [`risk-and-governance`](skills/ai-product-manager/references/risk-and-governance.md) | High-stakes domains · OWASP LLM Top 10 · lethal trifecta · NIST AI RMF · EU AI Act |
-| [`case-studies`](skills/ai-product-manager/references/case-studies.md) | Manufacturing, maintenance, clinical, customer service, a policy-assistant incident, a contract-review rescue |
-| [`pitfalls`](skills/ai-product-manager/references/pitfalls.md) | 92 pitfalls: symptom → why it kills → fix |
-| [`industry-evidence`](skills/ai-product-manager/references/industry-evidence.md) | RAND, MIT NANDA, Gartner, McKinsey, Anthropic, OpenAI, Google PAIR and more, with sources and caveats |
+| [`role-and-responsibilities`](skills/chanmeng-ai-product-manager/references/role-and-responsibilities.md) | 7 duties and 4 things that aren't yours · how technical to be · AI PM vs. FDE vs. engineer vs. architect · 7-layer responsibility map · 6 AI product forms |
+| [`discovery`](skills/chanmeng-ai-product-manager/references/discovery.md) | The first questions · stakeholder map · RACI · interviews · baselines · AI-suitability · hypothesis ledger |
+| [`solution-selection`](skills/chanmeng-ai-product-manager/references/solution-selection.md) | Certainty axis · decision tree · when an agent is justified · autonomy levels · HITL · agent patterns · ADRs |
+| [`scoping-and-vertical-slice`](skills/chanmeng-ai-product-manager/references/scoping-and-vertical-slice.md) | Minimum viable *deployment* · coverage vs. depth · 4-layer slice · deferrals with return conditions · exit criteria |
+| [`ontology-and-guardrails`](skills/chanmeng-ai-product-manager/references/ontology-and-guardrails.md) | Concepts/relations/constraints · action allow-lists · "prompts are advice, not gates" |
+| [`agent-architecture`](skills/chanmeng-ai-product-manager/references/agent-architecture.md) | Design order · agent loop and exits · hub-and-spoke subagents and briefs · code gates (hooks, prerequisites) · context engineering · error propagation and escalation · verification · long-running harnesses · the fix ladder · review checklist |
+| [`tool-design`](skills/chanmeng-ai-product-manager/references/tool-design.md) | Choosing the tool set · tool descriptions · results · structured error contracts · `tool_choice` · structured output and validation-retry · MCP · testing tools |
+| [`building-on-claude`](skills/chanmeng-ai-product-manager/references/building-on-claude.md) | API vs. Agent SDK vs. Claude Code · concept-to-mechanism map (Agent tool, hooks, skills, CLAUDE.md, rules, MCP, structured outputs, batches) · Claude Code for teams and CI · common wrong answers · CCA-F domains |
+| [`poc`](skills/chanmeng-ai-product-manager/references/poc.md) | POC vs. demo · highest-risk assumption · the 4 POC experiments · spikes · continue/shrink/stop |
+| [`evaluation`](skills/chanmeng-ai-product-manager/references/evaluation.md) | 4-layer eval matrix · golden sets · error analysis · groundedness · LLM-as-judge · the "95%" traps · eval vs. UAT vs. pilot |
+| [`lifecycle-and-gates`](skills/chanmeng-ai-product-manager/references/lifecycle-and-gates.md) | 7 stages · 4 gates · Demo/POC/Pilot/Production by evidence · sunk cost and stop conditions |
+| [`production-readiness`](skills/chanmeng-ai-product-manager/references/production-readiness.md) | 12-item launch gate · canary · rollback drills · AI-quality SLOs · runbooks · incident triage |
+| [`risk-and-governance`](skills/chanmeng-ai-product-manager/references/risk-and-governance.md) | High-stakes domains · OWASP LLM Top 10 · lethal trifecta · NIST AI RMF · EU AI Act |
+| [`case-studies`](skills/chanmeng-ai-product-manager/references/case-studies.md) | Manufacturing, maintenance, clinical, customer service, a policy-assistant incident, a contract-review rescue |
+| [`pitfalls`](skills/chanmeng-ai-product-manager/references/pitfalls.md) | 92 pitfalls: symptom → why it kills → fix |
+| [`industry-evidence`](skills/chanmeng-ai-product-manager/references/industry-evidence.md) | RAND, MIT NANDA, Gartner, McKinsey, Anthropic, OpenAI, Google PAIR and more, with sources and caveats |
 
 **Templates:** project charter · discovery report · AI PRD · POC proof plan · eval plan · UAT plan ·
 launch gate checklist · runbook · ADR · ontology and action allow-list · project health check ·
@@ -96,28 +96,28 @@ Pick **one** method.
 ### Method 1: Claude Code plugin marketplace (recommended)
 
 ```text
-/plugin marketplace add ChanMeng666/ai-product-manager-skill
-/plugin install ai-product-manager@chan-ai-product-manager
+/plugin marketplace add ChanMeng666/chanmeng-ai-product-manager
+/plugin install chanmeng-ai-product-manager@chan-ai-product-manager
 ```
 
 ### Method 2: Copy into your skills folder
 
-The skill lives at `skills/ai-product-manager/`. Copy that folder into your user-level skills
+The skill lives at `skills/chanmeng-ai-product-manager/`. Copy that folder into your user-level skills
 directory:
 
 ```bash
 # macOS / Linux / Windows (Git Bash or WSL)
-git clone --depth 1 https://github.com/ChanMeng666/ai-product-manager-skill.git /tmp/_aipm \
+git clone --depth 1 https://github.com/ChanMeng666/chanmeng-ai-product-manager.git /tmp/_aipm \
   && mkdir -p ~/.claude/skills \
-  && cp -r /tmp/_aipm/skills/ai-product-manager ~/.claude/skills/ai-product-manager \
+  && cp -r /tmp/_aipm/skills/chanmeng-ai-product-manager ~/.claude/skills/chanmeng-ai-product-manager \
   && rm -rf /tmp/_aipm
 ```
 
 ```powershell
 # Windows PowerShell
-git clone --depth 1 https://github.com/ChanMeng666/ai-product-manager-skill.git "$env:TEMP\_aipm"
+git clone --depth 1 https://github.com/ChanMeng666/chanmeng-ai-product-manager.git "$env:TEMP\_aipm"
 New-Item -ItemType Directory -Force "$env:USERPROFILE\.claude\skills" | Out-Null
-Copy-Item -Recurse "$env:TEMP\_aipm\skills\ai-product-manager" "$env:USERPROFILE\.claude\skills\ai-product-manager"
+Copy-Item -Recurse "$env:TEMP\_aipm\skills\chanmeng-ai-product-manager" "$env:USERPROFILE\.claude\skills\chanmeng-ai-product-manager"
 Remove-Item -Recurse -Force "$env:TEMP\_aipm"
 ```
 
@@ -126,7 +126,7 @@ For a single project instead of every project, copy it to `<your-project>/.claud
 ### Method 3: Other agents and Claude.ai
 
 The skill follows the open **Agent Skills** format (`SKILL.md` + resources), so any agent that
-supports it can load the `skills/ai-product-manager/` folder. On Claude.ai, zip that folder and
+supports it can load the `skills/chanmeng-ai-product-manager/` folder. On Claude.ai, zip that folder and
 upload it under **Settings → Capabilities → Skills**. For agents without skill support, point the
 agent at `SKILL.md` and ask it to follow the instructions.
 

@@ -1,5 +1,5 @@
 ---
-name: ai-product-manager
+name: chanmeng-ai-product-manager
 description: >-
   Think and act like a senior AI product manager, forward-deployed engineer and agent architect
   who has shipped enterprise LLM, RAG and agent systems past the demo. Use whenever someone

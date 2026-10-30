@@ -5,7 +5,7 @@ Codex, etc.) working with this repository. Read it before changing anything.
 
 ## Project Overview
 
-**ai-product-manager** is an [Agent Skill](https://docs.anthropic.com/en/docs/claude-code/skills)
+**chanmeng-ai-product-manager** is an [Agent Skill](https://docs.anthropic.com/en/docs/claude-code/skills)
 that gives any agent the judgment and field experience of a senior AI product manager /
 forward-deployed engineer (FDE). It covers the full lifecycle of enterprise LLM, RAG and agent
 projects: discovery, solution selection, vertical slicing, POCs, evaluation, launch gates,
@@ -13,7 +13,7 @@ production readiness, and continue/shrink/stop decisions.
 
 - **Primary content:** Markdown (the skill itself). Tooling: plain Node.js 18+, zero dependencies.
 - **Default branch:** `main`
-- **Repository:** https://github.com/ChanMeng666/ai-product-manager-skill
+- **Repository:** https://github.com/ChanMeng666/chanmeng-ai-product-manager
 
 ## Commands
 
@@ -26,7 +26,7 @@ CI (`.github/workflows/validate.yml`) runs the same script plus a JSON check of 
 ## Architecture & Conventions
 
 ```
-skills/ai-product-manager/
+skills/chanmeng-ai-product-manager/
 ├── SKILL.md            # entry point: principles, workflow, router table, diagnostics (< 500 lines)
 ├── references/         # loaded on demand, one topic per file (discovery, evaluation, production…)
 └── templates/          # one-page fill-in artifacts (charter, PRD, POC plan, eval plan, runbook…)
@@ -63,7 +63,7 @@ scripts/validate.mjs    # repo checks
 ## Reading Order
 
 1. `README.md`: what the skill is and how to install it
-2. `skills/ai-product-manager/SKILL.md`: the skill itself
+2. `skills/chanmeng-ai-product-manager/SKILL.md`: the skill itself
 3. This `AGENTS.md`, then `CONTRIBUTING.md`
 
 ## Conventions for Changes

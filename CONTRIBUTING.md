@@ -1,4 +1,4 @@
-# Contributing to ai-product-manager
+# Contributing to chanmeng-ai-product-manager
 
 Thank you for your interest in contributing! This guide explains how to get involved.
 
@@ -6,7 +6,7 @@ Thank you for your interest in contributing! This guide explains how to get invo
 
 ### Reporting Bugs
 
-If you find a bug, please [open an issue](https://github.com/ChanMeng666/ai-product-manager-skill/issues/new/choose) with:
+If you find a bug, please [open an issue](https://github.com/ChanMeng666/chanmeng-ai-product-manager/issues/new/choose) with:
 
 - Steps to reproduce the problem
 - Expected vs. actual behavior (screenshots or logs help)
@@ -14,14 +14,14 @@ If you find a bug, please [open an issue](https://github.com/ChanMeng666/ai-prod
 
 ### Suggesting Features
 
-Have an idea? [Open a feature request](https://github.com/ChanMeng666/ai-product-manager-skill/issues/new/choose) describing the problem you want to solve and your proposed solution.
+Have an idea? [Open a feature request](https://github.com/ChanMeng666/chanmeng-ai-product-manager/issues/new/choose) describing the problem you want to solve and your proposed solution.
 
 ### Submitting Changes
 
 1. **Fork** the repository and **clone** your fork:
    ```bash
-   git clone https://github.com/<your-username>/ai-product-manager-skill.git
-   cd ai-product-manager-skill
+   git clone https://github.com/<your-username>/chanmeng-ai-product-manager.git
+   cd chanmeng-ai-product-manager
    ```
 2. **Create a branch** for your changes:
    ```bash
@@ -45,7 +45,7 @@ node scripts/validate.mjs
 Link your working copy into Claude Code to try changes live:
 
 ```bash
-ln -s "$(pwd)/skills/ai-product-manager" ~/.claude/skills/ai-product-manager
+ln -s "$(pwd)/skills/chanmeng-ai-product-manager" ~/.claude/skills/chanmeng-ai-product-manager
 ```
 
 ### What makes a good contribution
