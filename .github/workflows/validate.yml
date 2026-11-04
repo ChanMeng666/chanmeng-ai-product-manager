@@ -19,6 +19,11 @@ jobs:
       - name: Validate skill structure
         run: node scripts/validate.mjs
 
+      - name: Claude Code validates the plugin and marketplace
+        run: |
+          npx -y @anthropic-ai/claude-code plugin validate --strict .claude-plugin/plugin.json
+          npx -y @anthropic-ai/claude-code plugin validate --strict .
+
       - name: Plugin manifests are valid JSON
         run: |
           node -e "JSON.parse(require('fs').readFileSync('.claude-plugin/plugin.json','utf8'))"

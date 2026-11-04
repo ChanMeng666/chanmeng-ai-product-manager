@@ -97,7 +97,7 @@ Pick **one** method.
 
 ```text
 /plugin marketplace add ChanMeng666/chanmeng-ai-product-manager
-/plugin install chanmeng-ai-product-manager@chan-ai-product-manager
+/plugin install chanmeng-ai-product-manager@chanmeng-ai-product-manager
 ```
 
 ### Method 2: Copy into your skills folder
