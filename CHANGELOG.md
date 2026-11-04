@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.1] - 2026-11-04
+
+### Changed
+- The marketplace is now named `chanmeng-ai-product-manager`, the same as the repo, plugin and skill.
+  Install with `/plugin install chanmeng-ai-product-manager@chanmeng-ai-product-manager`.
+  If you added the old `chan-ai-product-manager` marketplace, remove it first:
+  `/plugin marketplace remove chan-ai-product-manager`.
+- CI now runs `claude plugin validate --strict` on the plugin and marketplace manifests.
+
 ## [0.2.0] - 2026-10-20
 
 ### Added
