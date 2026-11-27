@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-11-27
+
+### Added
+- `references/solo-and-consumer.md`: how to apply the skill when the organization is one founder
+  (often directing coding agents) and the users are anonymous strangers paying per use. It covers
+  what to drop or shrink (RACI, charter, procurement, UAT, pilot), what matters more (the first
+  session, unit economics per result, honest scope shown in the product, free-tier abuse, public copy
+  that stays true), the four layers of evidence for a consumer product, small samples, telemetry
+  instead of interviews, pricing an error the user can't see, routing the owner's time, agents as
+  the workforce, targets the owner hasn't set, and red-flag phrases for this setting.
+- SKILL.md: a router row, a reference-map entry, an "org shape" check in Step 1, and a trigger
+  mention in the description.
+- Eval 6 (`solo-founder-consumer-meal-plans`) in `evals/evals.json`, with results in
+  `evals/benchmark.md` (13/14 with the skill against 7/14 without, graded blind), and the full
+  with-skill answer in `examples/solo-founder-meal-plans.md`.
+
 ## [0.2.1] - 2026-11-04
 
 ### Changed

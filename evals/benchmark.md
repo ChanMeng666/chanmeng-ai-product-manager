@@ -19,6 +19,8 @@ strictness for both configurations.
   building on Claude). Two new architecture scenarios ran with and without the skill, and the
   grader was blind to which answer was which. The three original scenarios were re-run with the
   skill as a regression check.
+- **Iteration 5 (v0.3.0):** the solo-founder and consumer-product reference was added. One new
+  scenario ran with and without the skill, and the grader was blind to which answer was which.
 
 ## Results
 
@@ -74,6 +76,26 @@ in a pre-tool hook, and it removes the SDK's built-in shell and file tools from 
 grader called it long but dense. Baselines were not re-run, because the change only adds content
 to the skill.
 
+### Iteration 5: solo founder, consumer product (v0.3.0)
+
+| Scenario | With skill | Without skill |
+|---|---|---|
+| Solo founder, allergy and medical-diet meal plans: "redesign onboarding and switch to a bigger model? write a PRD and a RACI first?" | **13/14** | 7/14 |
+
+**What the solo/consumer reference changed:** *Without the skill,* the agent got the main priority
+right: block the unsafe plans, measure, and hold the model switch and the redesign. But it:
+- never said that users can't see an allergen error themselves, which is why it is the costliest;
+- gave no denominators, no read date or minimum sample, and no continue, shrink or stop line;
+- had no independent review of the agent-written changes;
+- ended with a summary instead of a single next action.
+
+*With the skill,* it kept the code-enforced red line and added a failure table, denominators, read
+dates, stop lines, independent review of the agents' changes and a dated next action. The one
+assertion it missed was the cost of the free first plan in the unit economics. The reference now
+states that line explicitly (the cost of free results divided by the paying customers they
+produced). That sentence was added after grading and has not been re-benchmarked. Tokens: about 84k
+with the skill against 50k without.
+
 ## What the skill changed (iterations 1–2)
 
 - **Bank kickoff.**
@@ -113,4 +135,4 @@ to the skill.
   The first is addressed by a "commit to numbers" rule added after iteration 2, which hasn't been
   re-benchmarked yet.
 
-Full iteration-2 answers produced with the skill are in [`../examples/`](../examples/).
+Full answers produced with the skill (iterations 2, 3 and 5) are in [`../examples/`](../examples/).

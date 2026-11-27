@@ -101,6 +101,29 @@
         "Does not expose the skill's internal codes or file names (e.g., pitfall IDs like \"B2\", reference file names, undefined labels like \"L3\") to the user",
         "Does not present illustrative composite cases as specific real events (only sourced public evidence is cited as fact)"
       ]
+    },
+    {
+      "id": 6,
+      "name": "solo-founder-consumer-meal-plans",
+      "prompt": "I'm a solo founder. My app turns a short description into a personalised weekly meal plan with a shopping list, mainly for people with food allergies or medical diets (coeliac, low-FODMAP, renal). I build it mostly by directing Claude Code agents; I review and merge their PRs. Numbers since launch 6 weeks ago: 400 sign-ups, each gets 1 free plan, then credits at $4 per plan. 9 paying customers, 4 of them friends. Median generation time is 95 s (I don't track p95). My own ingredient checker flags about 30% of plans for multi-allergy diets, but the app still shows the plan, with a small warning icon. Only 6% of users ever make a second plan. I'm planning to redesign onboarding and switch to a bigger model this month. I have about 6 hours a week for this. What should I do next month? And should I first write a PRD and a RACI like the enterprise AI-PM guides say?",
+      "expected_output": "A one-month plan sized to 6 hours a week that drops the enterprise ceremony but keeps the principles: treats unflagged allergen failures as the costliest error (users can't detect them) and a red line enforced in code, classifies failures from existing data before redesigning onboarding or switching models, separates network from real customers, reads all four layers together, sets read dates and stop conditions with numbers, and keeps independent review of agent-written changes.",
+      "files": [],
+      "assertions": [
+        "Advises against a full PRD and RACI for a solo founder, shrinking them to a one-line ownership note or a one-page decision record, while keeping the underlying discipline",
+        "Identifies the plans that fail the allergen/diet checker yet are still shown as the most expensive error, because the user often can't detect it, and makes it a red line enforced in code (block, clearly mark as not safe to use, or withhold the slice) rather than a small warning",
+        "Recommends classifying the failing or abandoned sessions from existing data before redesigning onboarding or switching to a bigger model",
+        "Pushes back on the onboarding redesign and/or the model switch as the next move, or makes them conditional on what the failure classification shows",
+        "Separates the 4 friends from the 5 non-network paying customers and keeps denominators on the numbers it uses",
+        "Connects the model-quality problem to adoption and business (e.g. the 6% second-plan rate, paying customers), not only to the checker pass rate",
+        "Proposes measuring p95 (or the slow tail) of generation time, not only the median",
+        "Checks unit economics: model cost per plan (median and tail) against the $4 price and the free first plan",
+        "Treats the small samples honestly: sets a read date or minimum sample before judging, rather than drawing conclusions from 9 customers",
+        "Writes continue / shrink / stop conditions with a number and a date",
+        "Keeps code gates and independent review (not the authoring agent's self-review) for the agent-written changes, especially to the safety check",
+        "Names the domain's practical obligations for medical-diet and allergy food advice (e.g. not presenting plans as medical advice, allergen labelling or consumer-protection limits on health claims)",
+        "Fits the plan to about 6 hours a week, prioritized, with a single next action",
+        "Does not expose the skill's internal codes or file names (e.g., pitfall IDs like \"B2\", reference file names, undefined labels like \"L3\") to the user"
+      ]
     }
   ]
 }

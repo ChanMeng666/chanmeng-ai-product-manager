@@ -8,7 +8,8 @@ description: >-
   or "95% accurate, can we launch?"; agent architecture (agent loop, subagents, tool and MCP
   design, hooks, context, structured output); debugging a misbehaving agent; building on the
   Claude API, Agent SDK or Claude Code; guardrails, human-in-the-loop, launch, rollback or
-  runbooks; continue, shrink or kill decisions. Also for AI PM career questions and AI project
+  runbooks; continue, shrink or kill decisions. Also for solo founders and consumer AI apps
+  (strangers paying per use, agents doing the building), AI PM career questions and AI project
   health checks, even when nobody says "product manager". Works in any language (e.g. AI产品经理,
   智能体架构, 需求评审, POC, 上线).
 ---
@@ -113,12 +114,19 @@ their plan, or an artifact. Use the router below and read only the reference fil
 | Wanting proof from the field ("how did others do this?") | `references/case-studies.md` | none |
 | Working in a regulated or high-stakes domain (health, finance, legal, HR) | `references/risk-and-governance.md` | `action-allowlist.md` |
 | Wanting market data to persuade stakeholders | `references/industry-evidence.md` | none |
+| A solo founder or tiny team, a consumer or prosumer AI app, or a product built mostly by coding agents | `references/solo-and-consumer.md`, alongside whichever stage file applies | one-page decision record, `project-health-check.md` |
 
 Whatever the stage, also skim `references/pitfalls.md` and check the user's plan against it.
 
 Most questions need **one to three references, plus pitfalls.** Loading everything costs time and
 dilutes the answer. Add a reference only when the user's situation actually touches its topic. For
 example, read the regulated-domain file only if the domain is regulated.
+
+**Check the org shape before applying ceremony.** Most of this skill assumes an enterprise: a
+sponsor, staff users, review boards. When the project is one founder (often directing coding agents)
+selling to anonymous users, keep every principle but shrink every artifact. A RACI becomes one line,
+UAT becomes watching real traffic, and the founder's time is what you protect. Read
+`references/solo-and-consumer.md` for what to drop and what matters more.
 
 ### Step 2: Get the minimum facts, but don't stall
 If the user already gave a lot of context, restate what you inferred in a line or two, then ask
@@ -308,3 +316,7 @@ it be rolled back? Who answers when it breaks? Any blank answer moves the projec
   fix.
 - `references/industry-evidence.md`: public research on AI project failure and success, with
   sources, for persuading stakeholders.
+- `references/solo-and-consumer.md`: adapting the skill to one founder and anonymous paying users:
+  what to drop or shrink, the four layers for a consumer product, small samples, telemetry instead
+  of interviews, errors the user can't see, routing the owner's time, agents as the workforce, and
+  targets the owner hasn't set.
