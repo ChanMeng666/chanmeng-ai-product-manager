@@ -84,6 +84,7 @@ skills/chanmeng-ai-product-manager/
 | [`case-studies`](skills/chanmeng-ai-product-manager/references/case-studies.md) | Manufacturing, maintenance, clinical, customer service, a policy-assistant incident, a contract-review rescue |
 | [`pitfalls`](skills/chanmeng-ai-product-manager/references/pitfalls.md) | 92 pitfalls: symptom → why it kills → fix |
 | [`industry-evidence`](skills/chanmeng-ai-product-manager/references/industry-evidence.md) | RAND, MIT NANDA, Gartner, McKinsey, Anthropic, OpenAI, Google PAIR and more, with sources and caveats |
+| [`solo-and-consumer`](skills/chanmeng-ai-product-manager/references/solo-and-consumer.md) | One founder and anonymous paying users · what to drop or shrink · four layers for a consumer product · small samples · telemetry instead of interviews · errors the user can't see · owner time · agents as the workforce |
 
 **Templates:** project charter · discovery report · AI PRD · POC proof plan · eval plan · UAT plan ·
 launch gate checklist · runbook · ADR · ontology and action allow-list · project health check ·

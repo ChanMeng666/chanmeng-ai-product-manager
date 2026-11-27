@@ -15,7 +15,7 @@ of the project for large language models and AI agents.
 
 - [README](https://github.com/ChanMeng666/chanmeng-ai-product-manager/blob/main/README.md): overview, installation, usage
 - [SKILL.md](https://github.com/ChanMeng666/chanmeng-ai-product-manager/blob/main/skills/chanmeng-ai-product-manager/SKILL.md): the skill entry point (principles, workflow, router, diagnostics)
-- [references/](https://github.com/ChanMeng666/chanmeng-ai-product-manager/tree/main/skills/chanmeng-ai-product-manager/references): discovery, solution selection, agent architecture, tool design, building on Claude, scoping, ontology, POC, evaluation, lifecycle, production, risk, cases, pitfalls, evidence
+- [references/](https://github.com/ChanMeng666/chanmeng-ai-product-manager/tree/main/skills/chanmeng-ai-product-manager/references): discovery, solution selection, agent architecture, tool design, building on Claude, scoping, ontology, POC, evaluation, lifecycle, production, risk, cases, pitfalls, evidence, solo founders and consumer products
 - [templates/](https://github.com/ChanMeng666/chanmeng-ai-product-manager/tree/main/skills/chanmeng-ai-product-manager/templates): charter, discovery report, PRD, POC plan, eval plan, UAT plan, launch gate, runbook, ADR, allow-list, health check, continue/shrink/stop memo, agent design spec, tool spec
 - [evals/](https://github.com/ChanMeng666/chanmeng-ai-product-manager/tree/main/evals): benchmark prompts, assertions and results
 - [examples/](https://github.com/ChanMeng666/chanmeng-ai-product-manager/tree/main/examples): full sample answers produced with the skill
